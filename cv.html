@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Caloin Cédric</title>
+	
+	<link rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="script.js"></script>
+	
+</head>
+
+<body onload="init();">
+
+	<div id="menu">
+		<a onclick="Pcontact();" title="Afficher Contact">Contact</a>
+		<a href="#F" title="Afficher Formation">Formation</a>
+		<a href="#E" title="Afficher Expériences">Expériences</a>
+		<a href="#C" title="Afficher Compétences">Compétences</a>
+		<a href="#L" title="Afficher Langues">Langues</a>
+		<a href="#Lo" title="Afficher Loisirs">Loisirs</a>
+	</div>
+
+	<h1>CALOIN Cédric</h1>
+	
+	<div id="contact">
+	<dl>
+		<dt><img src="symboles/gateau.png" alt="logo de gateau" />19 ans</dt>
+		<dt><img src="symboles/maison.png" alt="logo de maison" />42 place de l'Eglise<br />62830 Halinghen</dt>
+		<dt><img src="symboles/telephone.png" alt="logo de téléphone" />06 71 98 52 33</dt>
+		<dt><img src="symboles/mail.png" alt="logo d'enveloppe" />caloincedric4@gmail.com</dt>
+		<dt><img src="symboles/linkedin.png" alt="logo de linkedin" /><a href="https://www.linkedin.com/in/cédric-caloin-229a26365" 
+		title="linkedin">Cédric Caloin</a></dt>
+		<dt><img src="symboles/voiture.png" alt="logo de voiture" />Permis B + voiture</dt>
+	</dl>
+	</div>
+
+	<h1 id="F">Formation</h1>
+
+	<div id="formation" class="ss_menu">
+		<div id="formation-gauche" class="formation_experience" title="Afficher plus d'informations" onclick="description(this)">
+			<h2>IG2I - Centrale Lille</h2>
+			<div class="cache">2025 - 2030<br/>1ère année d'école d'ingénieurs</div>
+			<div class="desc">Je suis actuellement étudiant à IG2I (Institut de Génie Informatique et
+			Industriel), une école d'ingénieurs du groupe Centrale Lille Institut.</div>
+		</div>
+		<div id="formation-droit" class="formation_experience" title="Afficher plus d'informations" onclick="description(this)">
+			<h2>Lycée Edouard Branly</h2>
+			<div class="cache">juin 2025<br/>Baccalauréat Maths - NSI</div>
+			<div class="desc">J'ai réalisé un bac général au lycée Branly à Boulogne-sur-mer que j'ai
+			 obtenu avec mention très bien et félicitations du jury. J'étais également en section 
+			 européenne anglais. De plus, j'ai obtenu une mention au concours général des lycées en NSI.</div>
+		</div>
+	</div>
+	
+	<hr/>
+	
+	<h1 id="E">Expériences</h1>
+
+	<div id="experience" class="ss_menu">
+		<div class="formation_experience" title="Afficher plus d'informations" onclick="description(this)">
+			<h2>Impulse BMT</h2>
+			<div class="cache">2026 - 2027<br/>Vice-trésorier</div>
+			<div class="desc">Je suis actuellement ive-trésorier de l'association Impulse BMT, une association
+			qui a pour projet de créer un Fablab à disposition des élèves dans mon école. Celle-ci me permet
+			de découvir le monde associatif, d'organiser et gérer des événements et de travailler en équipe.</div>
+		</div>
+		<div class="formation_experience" title="Afficher plus d'informations" onclick="description(this)">
+			<h2>JC David</h2>
+			<div class="cache">juillet 2025<br/>Ouvrier de salaison polyvalent</div>
+			<div class="desc">L'été dernier, j'ai eu l'opportunité d'aller travailler un mois chez JC David
+			en tant qu'ouvrier de salaison. Durant ce mois j'ai pu découvrir le travail de transformation du
+			poisson notamment en le préparant avant d'être fumé.</div>
+		</div>
+		<div class="formation_experience" title="Afficher plus d'informations" onclick="description(this)">
+			<h2>JC David</h2>
+			<div class="cache">juillet 2024<br/>Agent de maintenance</div>
+			<div class="desc">Durant cette première expérience professionnelle chez JC David, j'ai pu découvrir
+			le monde du travail. J'ai réalisé différentes tâches dans le but d'aménager de nouveaux bureaux, ce qui
+			m'a permis d'en apprendre plus sur le travail d'agent de maintenance.</div>
+		</div>
+	</div>
+
+	<hr/>
+	
+	<h1 id="C">Compétences / Qualités</h1>
+	<dl>
+		<dt>Programmation en :</dt>
+		<dd>C</dd>
+		<dd>Python</dd>
+		<dd>SQL</dd>
+		<dd>WEB</dd>
+		<dt>Autonome</dt>
+		<dt>Travail en équipe</dt>
+		<dt>Organisé</dt>
+		<dt>Dynamique</dt>
+	</dl>
+	
+	<hr/>
+	
+	<h1 id="L">Langues</h1>
+	<dl>
+		<img src="fr.png" alt="drapeau de la France"/>
+		<dt class="langues">Français</dt>
+		<dd>Langue maternelle</dd>
+		<img src="ru.jpg" alt="drapeau du Royaume-Uni"/>
+		<dt class="langues">Anglais</dt>
+		<dd>Niveau B2</dd>
+		<dd>Concours Cambridge</dd>
+	</dl>
+	
+	<hr/>
+	
+	<h1 id="Lo">Loisirs</h1>
+	<dl>
+		<dt>Programmation</dt>
+		<dd>J'ai réalisé différents projets dans différents langages que vous pouvez retrouver 
+		<a href="https://cedten62.github.io/mesprojets/accueil.html" title="site décrivant certains de mes projets">ici</a></dd>
+		<dt>Sports mécaniques</dt>
+		<dd>Plus partiqulièrement la Moto GP et la Formule 1</dd>
+		<dt>Moto</dt>
+		<dt>Paddle</dt>
+	</dl>
+
+</body>
+</html>
