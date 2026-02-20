@@ -160,6 +160,7 @@ dl > img {
 	border: solid #1e3653 5px;
 	border-radius: 25px;
 	z-index:1;
+	top: 15%;
 	left: 30%;
 	right: 30%;
 	text-align: center;
@@ -167,4 +168,5 @@ dl > img {
 
 #contact dt {
 	margin:0;
+
 }
