@@ -146,13 +146,6 @@ dd {
 	display: inline-block;
 }
 
-dl > img {
-	max-height: 24px;
-	border-radius: 15%;
-	display: inline;
-	margin-left: 18px;
-}
-
 #contact {
 	display: none;
 	position: fixed;
@@ -168,5 +161,4 @@ dl > img {
 
 #contact dt {
 	margin:0;
-
 }
